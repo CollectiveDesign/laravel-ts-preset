@@ -1,0 +1,29 @@
+{
+    "name": "collective-design/laravel-ts-preset",
+    "description": "A typescript & foundation preset for Laravel projects",
+    "keywords": ["laravel", "laravel preset", "collective"],
+    "license": "MIT",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Leo Castanie",
+            "email": "leo@collective.design"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Collective\\LaravelTypescriptPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Collective\\LaravelTypescriptPreset\\CollectiveServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}

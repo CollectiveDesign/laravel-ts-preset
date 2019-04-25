@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "lib": ["es2015", "dom"],
+        "target": "es5",
+        "strict": true,
+        "module": "esNext",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+    },
+    "exclude": [
+        "node_modules",
+        "vendor"
+    ]
+}
